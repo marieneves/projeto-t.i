@@ -1,0 +1,54 @@
+body {background-color:rgb(149, 181, 209)
+
+}
+
+h1 {font-family:Georgia, 'Times New Roman', Times, serif; 
+color:rgb(253, 253, 253)
+
+}
+
+{
+
+margin: 0 auto;
+padding: 0;
+box-sizing:border-box
+
+}
+
+#menu {
+
+    background-color: black;
+}
+
+#menu ul {
+    max-width:800px ;
+    list-style: none;
+    padding: 0;
+    background-color:rgb(0, 0, 0);
+    }
+
+
+#menu ul li {
+    display:inline-block
+
+}
+
+ #menu ul li a {
+    color: rgb(255, 255, 255);
+    padding:20px;
+    display:inline-block;
+    text-decoration: none;
+    transition:background .4;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(182, 190, 197);
+}
+
+#menu ul li:last-child a {
+    float: right;
+
+
+
+}
+
